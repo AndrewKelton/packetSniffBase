@@ -4,7 +4,7 @@
 
 void packet_handler(unsigned char *user_data, const struct pcap_pkthdr *pkthdr, const unsigned char *packet) {
     printf("Packet captured with length: %d\n", pkthdr->len);
-    // Add your packet analysis logic here
+    // Add packet analysis logic here
 }
 
 int main() {
